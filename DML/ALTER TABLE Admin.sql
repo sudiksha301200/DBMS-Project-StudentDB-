@@ -1,0 +1,4 @@
+ALTER TABLE Admin 
+ALTER COLUMN Name VARCHAR(30) NOT NULL;
+
+EXEC sp_help Admin;
